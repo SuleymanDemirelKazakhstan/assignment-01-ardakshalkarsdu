@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Check which file changed",
+      "setup": "",
+      "run": "git diff-tree --no-commit-id --name-only -r ${{ github.sha }}",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
