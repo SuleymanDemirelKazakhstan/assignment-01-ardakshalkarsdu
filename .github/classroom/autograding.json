@@ -3,7 +3,7 @@
     {
       "name": "Check which file changed",
       "setup": "",
-      "run": "git diff-tree --no-commit-id --name-only -r ${{ github.sha }}",
+      "run": "git diff-tree --no-commit-id --name-only -r HEAD HEAD~3",
       "input": "",
       "output": "",
       "comparison": "included",

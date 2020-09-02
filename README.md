@@ -1,1 +1,2 @@
-# DUMMY TEXT
+Ardak Shalkarbay-uly
+Hello world
